@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 flask
 requests
 beautifulsoup4
+=======
+flask
+requests
+beautifulsoup4
+>>>>>>> fff0b4a35c90eff6e7a1cb672e01dccfecee7515
