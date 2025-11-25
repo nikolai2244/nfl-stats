@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NFL Stats Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+    <header>
+        <h1>NFL Stats Dashboard</h1>
+    </header>
+    <main>
+        <section>
+            <button onclick="fetchStats()">Load NFL Passing Yards</button>
+            <div id="results"></div>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>
